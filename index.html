@@ -10,7 +10,7 @@
 
   <body class="bg-white text-gray-600">
     <header class="bg-gray-50 text-center">
-      <nav class="flex justify-between md:justify-around px-8 items-center py-4 pt-8 md:py-5">
+      <nav class="flex justify-between md:justify-around px-8 md:px-0 items-center py-4 pt-8 md:py-5">
         <div class="font-bold text-black text-3xl">
           <svg class="size-9 md:size-6 fill-none bg-lime-400 inline -mt-2 rounded-full p-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" color="#000000">
             <path d="M17 7L6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
@@ -50,7 +50,7 @@
       <div class="py-14">
         <img class="block px-12 md:px-0 md:mx-auto" src="images/banner.png" />
         <h2 class="text-3xl md:text-6xl px-6 pt-3 text-black font-bold">A barn house of this design has a<br />striking appearance</h2>
-        <p class="my-8 px-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <p class="my-8 px-8 md:w-3/5 md:mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
         <button class="w-[calc(100%-60px)] md:w-auto py-3 px-5 text-black text-xl font-semibold bg-lime-300 border-2 border-green-500 rounded-full">
           View Details
           <svg class="bg-lime-500 ml-2 -mt-1 inline rounded-full p-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" color="black" fill="none">
@@ -63,7 +63,7 @@
 
     <main>
       <!-- About Us -->
-      <section class="bg-gray-100 flex gap-6 md:gap-0 flex-col md:flex-row justify-around items-center pt-12 md:pt-20">
+      <section class="flex gap-6 md:gap-0 flex-col md:flex-row justify-around items-center bg-gray-100 pt-12 md:pt-20 relative">
         <div class="md:w-2/5">
           <h2 class="text-3xl md:text-5xl w-11/12 mx-auto text-black font-bold">
             We design thoughtful,<br />
@@ -90,8 +90,9 @@
           </div>
         </div>
         <div class="w-11/12 mx-auto h-auto md:w-2/5 md:mx-0">
-          <img class="w-full h-60 md:h-auto object-cover rounded-3xl" src="images/Rectangle.png" />
+          <img class="w-full h-72 md:h-auto object-cover rounded-3xl" src="images/Rectangle.png" />
         </div>
+        <img class="absolute rotate-180 top-24 left-56" src="images/Vector.png" />
       </section>
 
       <!-- Our Work Process -->
